@@ -96,6 +96,7 @@ button {
     background: none;
     display: block;
     margin: auto;
+    margin-bottom: 5px;
     text-align: center;
     border: 2px solid #B3B7EE;
     padding: 12px 40px 12px 40px;
@@ -111,5 +112,5 @@ button:hover {
 }
 
 #rte-version {
-    color: #B3B7EE;
+    color: rgba(251, 249, 255, .4)
 }

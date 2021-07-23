@@ -22,13 +22,25 @@
                 <path style="transform:translate(0, 0px); opacity:1" fill="#B3B7EE" d="M0,34L120,51C240,68,480,102,720,102C960,102,1200,68,1440,70.8C1680,74,1920,113,2160,110.5C2400,108,2640,62,2880,48.2C3120,34,3360,51,3600,59.5C3840,68,4080,68,4320,82.2C4560,96,4800,125,5040,113.3C5280,102,5520,51,5760,25.5C6000,0,6240,0,6480,5.7C6720,11,6960,23,7200,42.5C7440,62,7680,91,7920,110.5C8160,130,8400,142,8640,144.5C8880,147,9120,142,9360,121.8C9600,102,9840,68,10080,65.2C10320,62,10560,91,10800,87.8C11040,85,11280,51,11520,34C11760,17,12000,17,12240,31.2C12480,45,12720,74,12960,82.2C13200,91,13440,79,13680,76.5C13920,74,14160,79,14400,79.3C14640,79,14880,74,15120,62.3C15360,51,15600,34,15840,45.3C16080,57,16320,96,16560,96.3C16800,96,17040,57,17160,36.8L17280,17L17280,170L17160,170C17040,170,16800,170,16560,170C16320,170,16080,170,15840,170C15600,170,15360,170,15120,170C14880,170,14640,170,14400,170C14160,170,13920,170,13680,170C13440,170,13200,170,12960,170C12720,170,12480,170,12240,170C12000,170,11760,170,11520,170C11280,170,11040,170,10800,170C10560,170,10320,170,10080,170C9840,170,9600,170,9360,170C9120,170,8880,170,8640,170C8400,170,8160,170,7920,170C7680,170,7440,170,7200,170C6960,170,6720,170,6480,170C6240,170,6000,170,5760,170C5520,170,5280,170,5040,170C4800,170,4560,170,4320,170C4080,170,3840,170,3600,170C3360,170,3120,170,2880,170C2640,170,2400,170,2160,170C1920,170,1680,170,1440,170C1200,170,960,170,720,170C480,170,240,170,120,170L0,170Z"></path>
             </svg>
         </div>
+        
         <h1 id="title">Download(s)</h1>
-        <p id="sub">Available: 1</p>
-        <a id="download-link" href="https://github.com/Cu-chi/ReachTheEnd/releases/download/1.0.1/ReachTheEndInstaller-1.0.1.exe" download="ReachTheEndInstaller">
+        <p id="sub">Available: <span id="versions-available"></span> | Latest: <span id="latest-version"></span></p>
+
+        <!-- put the latest version as high as possible in the code in order to be understood as last by the javascript code -->
+        <!-- Hidden, waiting for the latest update to be released
+            <a class="downloadable" id="download-link" href="https://github.com/Cu-chi/ReachTheEnd/releases/download/1.0.1/ReachTheEndInstaller-1.0.1.exe" download="ReachTheEndInstaller">
+                <button type="button">
+                    <img id="windows-logo" src="src/windows-logo-120x120.png" width="30" height="30"/>
+                    Download <span id="rte-version">(1.0.2)</span>
+                </button>
+            </a>
+        -->
+        <a class="downloadable" id="download-link" href="https://github.com/Cu-chi/ReachTheEnd/releases/download/1.0.1/ReachTheEndInstaller-1.0.1.exe" download="ReachTheEndInstaller">
             <button type="button">
                 <img id="windows-logo" src="src/windows-logo-120x120.png" width="30" height="30"/>
                 Download <span id="rte-version">(1.0.1)</span>
             </button>
         </a>
+        <script type="text/javascript" src="js/downloads-TotalAndLatestBuild.js"></script>
     </body>
 </html>
