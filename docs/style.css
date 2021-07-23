@@ -54,7 +54,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-size: 24px;
     background-color: #B3B7EE;
 }
 
@@ -67,6 +66,7 @@ li a {
     color: #000807;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-size: 24px;
     padding: 14px 16px;
     text-decoration: none;
     transition: all 0.3s ease-out;
@@ -108,4 +108,8 @@ button {
 button:hover {
     background: fixed;
     background-color: #B3B7EE;
+}
+
+#rte-version {
+    color: #B3B7EE;
 }
