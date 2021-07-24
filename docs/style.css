@@ -67,7 +67,7 @@ li a {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 24px;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
@@ -89,7 +89,6 @@ li a:hover {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    padding: 4px 4px 4px 4px;
 }
 
 button {
@@ -113,4 +112,10 @@ button:hover {
 
 #rte-version {
     color: rgba(251, 249, 255, .4)
+}
+
+.fix {
+    position:fixed;
+    bottom:0px;
+    margin: 5px;
 }
