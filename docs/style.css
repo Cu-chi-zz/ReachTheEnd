@@ -31,11 +31,11 @@ body {
     animation: fadeIn .2s linear forwards;
 }
 
-#github-img {
+#switch-color {
     transition: all 0.3s ease-out;
 }
 
-#github-img:hover {
+#switch-color:hover {
     filter: invert(100%);
 }
 
@@ -67,7 +67,7 @@ li a {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 24px;
-    padding: 14px;
+    padding: 8px;
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
